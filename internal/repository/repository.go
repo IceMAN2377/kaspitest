@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/marioscordia/egov/internal/models"
+	"github.com/IceMAN2377/kaspitest/internal/models"
 )
 
 type Repository interface {

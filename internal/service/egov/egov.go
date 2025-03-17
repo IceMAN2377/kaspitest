@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	errs "github.com/marioscordia/egov/internal/errors"
-	"github.com/marioscordia/egov/internal/models"
-	"github.com/marioscordia/egov/internal/repository"
-	"github.com/marioscordia/egov/internal/service"
+	errs "github.com/IceMAN2377/kaspitest/internal/errors"
+	"github.com/IceMAN2377/kaspitest/internal/models"
+	"github.com/IceMAN2377/kaspitest/internal/repository"
+	"github.com/IceMAN2377/kaspitest/internal/service"
 )
 
 type egov struct {

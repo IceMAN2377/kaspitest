@@ -8,13 +8,13 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/IceMAN2377/kaspitest/internal/config"
+	"github.com/IceMAN2377/kaspitest/internal/repository/postgres"
+	"github.com/IceMAN2377/kaspitest/internal/service/egov"
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/jmoiron/sqlx"
-	"github.com/marioscordia/egov/internal/config"
-	"github.com/marioscordia/egov/internal/repository/postgres"
-	"github.com/marioscordia/egov/internal/service/egov"
 
-	v1Http "github.com/marioscordia/egov/internal/transport/http"
+	v1Http "github.com/IceMAN2377/kaspitest/internal/transport/http"
 
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"

@@ -1,4 +1,4 @@
-module github.com/marioscordia/egov
+module github.com/IceMAN2377/kaspitest
 
 go 1.22.4
 

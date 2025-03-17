@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/marioscordia/egov/app"
-	"github.com/marioscordia/egov/internal/config"
+	"github.com/IceMAN2377/kaspitest/app"
+	"github.com/IceMAN2377/kaspitest/internal/config"
 )
 
 func main() {

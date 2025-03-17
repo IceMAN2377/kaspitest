@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/marioscordia/egov/internal/service"
+	"github.com/IceMAN2377/kaspitest/internal/service"
 )
 
 func RegisterEndpoints(logger *slog.Logger, router *http.ServeMux, service service.Service) {

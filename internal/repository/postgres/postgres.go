@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"errors"
 
+	errs "github.com/IceMAN2377/kaspitest/internal/errors"
+	"github.com/IceMAN2377/kaspitest/internal/models"
+	"github.com/IceMAN2377/kaspitest/internal/repository"
 	"github.com/jmoiron/sqlx"
-	errs "github.com/marioscordia/egov/internal/errors"
-	"github.com/marioscordia/egov/internal/models"
-	"github.com/marioscordia/egov/internal/repository"
 )
 
 type postgres struct {
